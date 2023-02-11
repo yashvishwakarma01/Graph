@@ -24,7 +24,8 @@ class Solution {
        return b;
        
     }
-    
+         // hum apne parent node ko pair me le kr chalege agar element parent k barabar nhi hai and visited nhi hai to queue me add kr denge agar 
+    //element parent k barabar nhi hai and visited hai iska mtlb cycle hai..
     public boolean bfs(ArrayList<ArrayList<Integer>> adj, Queue<Pair> q,int i,boolean []visited){
         boolean b =false;
         visited[i]=true;
